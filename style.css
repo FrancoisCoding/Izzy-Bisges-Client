@@ -82,6 +82,11 @@ nav {
   font-size: 3rem;
 }
 
+.home-header p {
+  width: 60%;
+  text-align: center;
+}
+
 .home-image {
   width: 35%;
 }
@@ -95,4 +100,12 @@ nav {
   padding: 2rem;
   margin-top: 2rem;
   border-radius: 10px;
+  width: 70%;
+}
+
+.linkedin-logo {
+  width: 3rem;
+  height: 2.5rem;
+  margin-top: 1rem;
+  color: white;
 }
