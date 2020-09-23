@@ -101,7 +101,7 @@ footer {
 }
 
 /* Home Page Styling */
-.home-main-container {
+.home-div-container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -151,7 +151,7 @@ footer {
 }
 
 /* About Page Styling */
-.about-main-container {
+.about-div-container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -193,7 +193,7 @@ footer {
 }
 
 /* Favorite Things Styling */
-.favorite-main-container {
+.favorite-div-container {
   display: flex;
   flex-direction: column;
   align-items: center;
