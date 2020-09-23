@@ -85,12 +85,20 @@ nav {
 .home-header p {
   width: 60%;
   text-align: center;
+  font-size: 1.2rem;
 }
 
 .home-image {
   width: 35%;
 }
 
+.home-title {
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid white;
+}
+
+/* Card Styling */
 .card {
   display: flex;
   align-items: center;
@@ -103,9 +111,71 @@ nav {
   width: 70%;
 }
 
+/* About Page Styling */
+.about-main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+  border-width: 20%;
+}
+
+.about-header h1 {
+  font-size: 3rem;
+}
+
+.about-header p {
+  width: 60%;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.about-image {
+  width: 35%;
+}
+
+.about-title {
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid white;
+}
+
+.about-list {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+/* Socials Styling */
 .linkedin-logo {
   width: 3rem;
   height: 2.5rem;
   margin-top: 1rem;
-  color: white;
+}
+
+.facebook-logo {
+  width: 3rem;
+  height: 2.5rem;
+  margin-top: 1rem;
+}
+
+.instagram-logo {
+  width: 3rem;
+  height: 2.5rem;
+  margin-top: 1rem;
+}
+
+.zodiac-logo {
+  width: 3rem;
+  height: 2.5rem;
+  margin-top: 1rem;
+}
+
+.social-logo {
+  margin-left: 1rem;
 }
