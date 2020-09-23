@@ -217,6 +217,7 @@ footer {
   padding-bottom: 1rem;
   margin-bottom: 1rem;
   border-bottom: 1px solid white;
+  text-align: center;
 }
 
 .favorite-cat-pictures {
@@ -260,15 +261,82 @@ footer {
 
 /* Media Queries for Mobile */
 @media only screen and (max-width: 600px) {
+  /* Mobile Navbar */
   .navbar {
     padding: 0px;
+    flex-direction: column;
+    margin-bottom: 2rem;
   }
 
   .navbar a {
-    width: 100%;
+    margin-top: 1rem;
+    padding: 0;
   }
   .nav-links {
-    padding-left: 110px;
     flex-direction: column;
+    text-align: center;
+  }
+  .nav-item {
+    margin-top: 0.5rem;
+  }
+
+  /* Mobile Card */
+  .card {
+    flex-direction: column;
+    padding: 1rem;
+    width: 100%;
+  }
+
+  /* Mobile Images */
+  .home-image {
+    width: 70%;
+    margin-right: 0;
+  }
+
+  .about-image {
+    width: 70%;
+    margin-right: 0;
+  }
+
+  .favorite-image {
+    width: 70%;
+    margin-right: 0;
+  }
+
+  /* Mobile Page Styling */
+  .home-header p {
+    width: 100%;
+  }
+
+  .about-header p {
+    width: 100%;
+  }
+
+  .favorite-header p {
+    width: 100%;
+  }
+
+  .home-header h1 {
+    font-size: 2rem;
+  }
+
+  .about-header h1 {
+    font-size: 2rem;
+  }
+
+  .favorite-header h1 {
+    font-size: 2rem;
+  }
+
+  .favorite-cat-pictures {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+  }
+
+  .favorite-cat-pictures img {
+    width: 60%;
+    margin-top: 1rem;
   }
 }
