@@ -4,6 +4,9 @@
 /* BioRhyme Font */
 @import url("https://fonts.googleapis.com/css2?family=BioRhyme&display=swap");
 
+/* Spartan Font */
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@900&display=swap");
+
 h1,
 h2,
 h3,
@@ -20,6 +23,10 @@ nav,
 footer,
 .card {
   font-family: "Montserrat", sans-serif;
+}
+
+.logo-container h1 {
+  font-family: "Spartan", sans-serif;
 }
 
 /* CSS Reset */
