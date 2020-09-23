@@ -64,26 +64,16 @@ nav {
 }
 
 /* Footer Styling */
-footer nav {
+footer {
   width: 60%;
   display: flex;
+  flex-direction: column;
   align-items: center;
   padding: 1rem;
   font-size: 1rem;
   margin: 0 auto;
   margin-top: 2rem;
-}
-
-footer nav a {
-  color: black;
-  text-decoration: none;
-  padding-left: 10px;
-  padding-right: 10px;
-}
-
-footer nav a:hover {
-  color: #3d99e2;
-  transition: font-size 0.3s ease;
+  margin-bottom: 2rem;
 }
 
 /* Logo Styling */
