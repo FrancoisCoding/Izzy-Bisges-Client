@@ -1,0 +1,36 @@
+.column1of2 {
+    float: center;
+    width: 620px;
+    margin: 10px;}
+ .column2of2 {
+    float: center;
+    width: 300px;
+    margin: 20px}
+    
+h2 {text-align: center;}
+ 
+ .container {
+  width: 100%;
+  height: 100%;
+  background: #ffd0d7
+ 
+ }
+ 
+.menu ul{
+ display: inline-flex;
+ margin: 50px;
+}
+.menu ul li{
+ list-style: none;
+ margin: 0 20px;
+ color: #b2b1b1;
+ cursor: pointer;
+}
+
+.header {
+  background-color: #F1F1F1;
+  text-align: center;
+  padding: 20px;
+}
+
+<h1 style="color:blue;">A Blue Heading</h1>
