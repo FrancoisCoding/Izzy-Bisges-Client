@@ -29,6 +29,11 @@ footer,
   box-sizing: border-box;
 }
 
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
 /* Navbar Styling */
 nav {
   width: 70%;
@@ -73,7 +78,6 @@ footer {
   font-size: 1rem;
   margin: 0 auto;
   margin-top: 2rem;
-  margin-bottom: 2rem;
 }
 
 /* Logo Styling */
