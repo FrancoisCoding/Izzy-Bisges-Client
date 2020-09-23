@@ -1,12 +1,25 @@
 /* Roboto Font */
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
+/* BioRhyme Font */
+@import url("https://fonts.googleapis.com/css2?family=BioRhyme&display=swap");
+
 h1,
 h2,
 h3,
 h4,
 h5 {
-  font-family: "Roboto", sans-serif;
+  font-family: "BioRhyme", serif;
+}
+
+p,
+a,
+li,
+nav,
+.nav-links,
+footer,
+.card {
+  font-family: "Montserrat", sans-serif;
 }
 
 /* CSS Reset */
@@ -43,8 +56,8 @@ nav {
 .nav-item a {
   text-decoration: none;
   color: black;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
 
 .nav-item:hover a {
@@ -246,4 +259,19 @@ footer nav a:hover {
 
 .social-logo {
   margin-left: 1rem;
+}
+
+/* Media Queries for Mobile */
+@media only screen and (max-width: 600px) {
+  .navbar {
+    padding: 0px;
+  }
+
+  .navbar a {
+    width: 100%;
+  }
+  .nav-links {
+    padding-left: 110px;
+    flex-direction: column;
+  }
 }
